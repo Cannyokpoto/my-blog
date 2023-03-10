@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./Blog.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!--
+    <div class="preloader-wrapper">
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+    </div> 
+-->
+
+<!--Header Area Start-->
+    <header class="header-area">
+        <div class="container">
+            <div class="logo">
+                <div class="menu--button">
+                    <button onclick="ToggleMobileNavigation()"><i class="fa-solid fa-bars"></i></button>
+                </div>
+                <a href="">horizon</a>
+            </div>
+            <div class="nav-block">
+                <div class="navigation--item">
+                    <a href="">Home</a>
+                    <a href="">Africa</a>
+                    <a href="">Americas</a>
+                    <a href="">Europe</a>
+                    <a href="">Asia</a>
+                </div>
+                
+                <div class="blog-search">
+                    <form action="#">
+                        <input type="search" placeholder="Search Blog Post">
+                        <button type="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Header Area Ends-->
+
+
+    <!--Mobile Navigation Starts-->
+    <div class="mobile--navigation" id="mobile--navigation">
+        <div class="mobile--navigation--header">
+            <div class="logo-close-button-container">
+                <img src="" alt="">
+                <a href="">Blog</a>
+            
+                <button class="close--button" onclick="ToggleMobileNavigation()"><i class="fa fa-close"></i></button>
+            </div>
+        </div>
+
+        <div class="mobile--navigations--items">
+            <a href="" class="mobile--navigation--item">Home</a>
+            <a href="" class="mobile--navigation--item">About</a>
+            <a href="" class="mobile--navigation--item">Services</a>
+            <a href="" class="mobile--navigation--item">Contact</a>
+        </div>
+    </div>
+    
+
+    <!--hero section Starts-->
+
+
+    <section class="hero-section">
+        
+        <div class="mySlides fade">
+            <img src="C:\Users\hp\Desktop\blog\hero\1.jpg" alt="">
+            <div class="feature-text-wrapper">
+                <div class="feature-text">
+                    <h2>ReactJs Portfolio website</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Maiores fugiat rerum dolores. <br> 
+                        Veniam ab doloribus fugiat iure 
+                        et earum, magni dolore?
+                    </p>
+                    <a class="feature-post-btn" href="blog-details.html">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="C:\Users\hp\Desktop\blog\hero\2.jpg" alt="" alt="hero">
+            <div class="feature-text-wrapper">
+                <div class="feature-text">
+                    <h2>ReactJs Portfolio website</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Maiores fugiat rerum dolores. <br> 
+                        Veniam ab doloribus at  iure et earum, 
+                        magni dolore?</p>
+                    <a class="feature-post-btn" href="blog-details.html">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="C:\Users\hp\Desktop\blog\hero\3.jpg" alt="" alt="hero">
+            <div class="feature-text-wrapper">
+                <div class="feature-text">
+                    <h2>ReactJs Portfolio website</h2>
+                    <p>Lorem ipsum dolor sit dolores. <br> Veniam ab doloribus at voluptates,  
+                        dicta fugiat iure et earum, magni dolore?</p>
+                    <a class="feature-post-btn" href="blog-details.html">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--main area starts-->
+    <section class="main-area-container">
+        <div class="main-area-wrapper">
+            <div class="blog-container">
+                <div class="blog-container-wrapper">
+
+                    
+                    <div class="blog-card">
+                        <img class="card-image" src="./sx.jpg" alt="">
+                        <div class="blog-items">
+                            <div class="blog-list-meta">
+                                <a class="blog-author" href="#">
+                                    <img src="./blog-list\author-1.png" alt="blog-author">
+                                    <span>Aslam Khan</span>
+                                </a>
+                                <a class="blog-category" href="#">ReactJs</a>
+                            </div>
+                            <div class="blog-text">
+                                <h3>Create Portfolio Ul usng fgma</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic alias et aut doloremque nam nemo, <br> commodi quam nostrum ea repellendus totam? Libero, excepturi. Maxime quam culpa enim et ipsum eos.</p>
+                                <a class="blog-list-btn" href="#">Read More...</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <img class="card-image" src="./blog-list\5.jpg" alt="">
+                        <div class="blog-items">
+                            <div class="blog-list-meta">
+                                <a class="blog-author" href="#">
+                                    <img src="./blog-list\author-2.png" alt="blog-author">
+                                    <span>John Doe</span>
+                                </a>
+                                <a class="blog-category" href="#">ReactJs</a>
+                            </div>
+                            <div class="blog-text">
+                                <h3>Create Portfolio Ul usng fgma</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic alias et aut doloremque nam nemo, <br> commodi quam nostrum ea repellendus totam? Libero, excepturi. Maxime quam culpa enim et ipsum eos.</p>
+                                <a class="blog-list-btn" href="#">Read More...</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <img class="card-image" src="./blog-list\4.jpg" alt="">
+                        <div class="blog-items">
+                            <div class="blog-list-meta">
+                                <a class="blog-author" href="#">
+                                    <img src="./blog-list\author-3.png" alt="blog-author">
+                                    <span>Vector Tha Viper</span>
+                                </a>
+                                <a class="blog-category" href="#">ReactJs</a>
+                            </div>
+                            <div class="blog-text">
+                                <h3>Create Portfolio Ul usng fgma</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic alias et aut doloremque nam nemo, <br> commodi quam nostrum ea repellendus totam? Libero, excepturi. Maxime quam culpa enim et ipsum eos.</p>
+                                <a class="blog-list-btn" href="#">Read More...</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <img class="card-image" src="./blog-list\3.jpg" alt="">
+                        <div class="blog-items">
+                            <div class="blog-list-meta">
+                                <a class="blog-author" href="#">
+                                    <img src="./blog-list\author-1.png" alt="blog-author">
+                                    <span>J Cole</span>
+                                </a>
+                                <a class="blog-category" href="#">ReactJs</a>
+                            </div>
+                            <div class="blog-text">
+                                <h3>Create Portfolio Ul usng fgma</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic alias et aut doloremque nam nemo, <br> commodi quam nostrum ea repellendus totam? Libero, excepturi. Maxime quam culpa enim et ipsum eos.</p>
+                                <a class="blog-list-btn" href="#">Read More...</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <img class="card-image" src="./blog-list\2.jpg" alt="">
+                        <div class="blog-items">
+                            <div class="blog-list-meta">
+                                <a class="blog-author" href="#">
+                                    <img src="./blog-list\author-2.png" alt="blog-author">
+                                    <span>K Dot</span>
+                                </a>
+                                <a class="blog-category" href="#">ReactJs</a>
+                            </div>
+                            <div class="blog-text">
+                                <h3>Create Portfolio Ul usng fgma</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic alias et aut doloremque nam nemo, <br> commodi quam nostrum ea repellendus totam? Libero, excepturi. Maxime quam culpa enim et ipsum eos.</p>
+                                <a class="blog-list-btn" href="#">Read More...</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <img class="card-image" src="./blog-list\1.jpg" alt="">
+                        <div class="blog-items">
+                            <div class="blog-list-meta">
+                                <a class="blog-author" href="#">
+                                    <img src="./blog-list\author-3.png" alt="blog-author">
+                                    <span>Sean Don</span>
+                                </a>
+                                <a class="blog-category" href="#">ReactJs</a>
+                            </div>
+                            <div class="blog-text">
+                                <h3>Create Portfolio Ul usng fgma</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic alias et aut doloremque nam nemo, <br> commodi quam nostrum ea repellendus totam? Libero, excepturi. Maxime quam culpa enim et ipsum eos.</p>
+                                <a class="blog-list-btn" href="#">Read More...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--sidebar starts-->
+
+            <div class="blog-sidebar">
+                <div class="sidebar-container">
+                    <div class="blog-search-sidebar">
+                        <form action="#">
+                            <input type="search" placeholder="search blog post">
+                            <button>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="sidebar-widget recent-post">
+                        <h3>Recent Post</h3>
+                        <div class="single-recent-post">
+                            <a href="blog.details.html">
+                                <img src="./recent-post\1.jpg" alt="recent post">
+                                <span></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sidebar-container-2">
+                    <div class="blog-category-list">
+                        <h3>Blog category list</h3>
+                        <ul>
+                            <li><a href="#">ReactJs</a></li>
+                            <li><a href="#">NodeJS</a></li>
+                            <li><a href="#">WordPress</a></li>
+                            <li><a href="#">HTML & CSS</a></li>
+                            <li><a href="#">TailWindCSS</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="blog-archive-list">
+                        <h3>Blog archive</h3>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span class="archive-date">January 2022</span>
+                                    <span class="archive-post-number">3</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <span class="archive-date">February 2022</span>
+                                    <span class="archive-post-number">4</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <span class="archive-date">March 2022</span>
+                                    <span class="archive-post-number">5</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <span class="archive-date">June 2022</span>
+                                    <span class="archive-post-number">6</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <span class="archive-date">June 2022</span>
+                                    <span class="archive-post-number">9</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--Recommended post-->
+
+    <section class="recommended-area-container">
+        <div class="recommended-area-wrapper">
+            <h2>Recommended Post</h2>
+            <div class="recommended-container-wrapper">
+                <div class="blog-card">
+                    <img class="card-image" src="./blog-1.jpeg" alt="">
+                    <div class="blog-item">
+                        <div class="blog-list-meta">
+                            <a class="blog-author" href="#">
+                                <img src="./pic-3.png" alt="">
+                                <span>Kung Mu</span>
+                            </a>
+                            <a class="blog-category" href="#">ReactJS</a>
+                        </div>
+                        <div class="blog-text">
+                            <h3>Create Portfolio Ul usng fgma</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit velit totam deserunt temporibus obcaecati nesciunt quas fugiat, iste laborum nulla vero labore excepturi animi, officiis autem harum. Fuga, sunt nam.</p>
+                            <a class="blog-list-btn" href="#">Read More...</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <img class="card-image" src="./blog-2.jpeg" alt="">
+                    <div class="blog-item">
+                        <div class="blog-list-meta">
+                            <a class="blog-author" href="#">
+                                <img src="./pic-2.png" alt="">
+                                <span>Sno</span>
+                            </a>
+                            <a class="blog-category" href="#">ReactJS</a>
+                        </div>
+                        <div class="blog-text">
+                            <h3>Create Portfolio Ul usng fgma</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit velit totam deserunt temporibus obcaecati nesciunt quas fugiat, iste laborum nulla vero labore excepturi animi, officiis autem harum. Fuga, sunt nam.</p>
+                            <a class="blog-list-btn" href="#">Read More...</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <img class="card-image" src="./blog-3.jpeg" alt="">
+                    <div class="blog-item">
+                        <div class="blog-list-meta">
+                            <a class="blog-author" href="#">
+                                <img src="./pic-1.png" alt="">
+                                <span>Ben</span>
+                            </a>
+                            <a class="blog-category" href="#">ReactJS</a>
+                        </div>
+                        <div class="blog-text">
+                            <h3>Create Portfolio Ul usng fgma</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit velit totam deserunt temporibus obcaecati nesciunt quas fugiat, iste laborum nulla vero labore excepturi animi, officiis autem harum. Fuga, sunt nam.</p>
+                            <a class="blog-list-btn" href="#">Read More...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer area starts-->
+
+    <footer class="footer-area">
+        <div class="footer-container">
+            <div class="copyright-text">
+                <p>All rghts reserved. designed by Promise okpoto 2022</p>
+            </div>
+            <div class="footer-socials">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+<script src="./Blog.js"></script>
+</html>
